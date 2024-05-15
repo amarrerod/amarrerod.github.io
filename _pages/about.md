@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle:  "PhD Candidate" #<a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle:  "PhD" #<a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
@@ -16,10 +16,19 @@ profile:
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
+
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I'm a Computer Science PhD who advocates in self-taught education and continuous traineeship.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+At the time of my educational stage and early research career at Universidad de La Laguna (ULL) I was especially into the fields:
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+* Artifical Intelligence, mainly Evolutionary Computation methods
+* Instance Generation and Representation in Optimisation Domains
+* Design of Algorithms
+* Optimization
+* Computational Complexity. 
+ 
+Nowaday I am working on my post-doctoral research based on Machine Learning and Evolutionary Computing to analyse instances in various optimisation domains.
+
+I'm also a proud member of the [Parallel Algorithms and Languages](https://portalciencia.ull.es/grupos/6550/detalle) research group in the ULL.
