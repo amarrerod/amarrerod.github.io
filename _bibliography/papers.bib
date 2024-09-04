@@ -1,115 +1,152 @@
----
----
+ @inproceedings{Marrero2019, 
+ title={On the automatic planning of healthy and balanced menus}, 
+ ISBN={9781450367486},
+ booktitle={GECCO 2019 Companion - Proceedings of the 2019 Genetic and Evolutionary Computation Conference Companion}, 
+ publisher={Association for Computing Machinery, Inc}, 
+ author={Marrero, Alejandro and Segredo, Eduardo and Leon, Coromoto}, 
+ year={2019}, pages={71-72},
+ address = {Prague, Czech Republic}}
 
-@string{aps = {American Physical Society,}}
 
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
+@inproceedings{Marrero2023_2,
+author = {Marrero, Alejandro and Segredo, Eduardo and Hart, Emma and Bossek, Jakob and Neumann, Aneta},
+title = {Generating Diverse and Discriminatory Knapsack Instances by Searching for Novelty in Variable Dimensions of Feature-Space},
+year = {2023},
+isbn = {9798400701191},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+abstract = {Generating new instances via evolutionary methods is commonly used to create new benchmarking data-sets, with a focus on attempting to cover an instance-space as completely as possible. Recent approaches have exploited Quality-Diversity methods to evolve sets of instances that are both diverse and discriminatory with respect to a portfolio of solvers, but these methods can be challenging when attempting to find diversity in a high-dimensional feature-space. We address this issue by training a model based on Principal Component Analysis on existing instances to create a low-dimension projection of the high-dimension feature-vectors, and then apply Novelty Search directly in the new low-dimension space. We conduct experiments to evolve diverse and discriminatory instances of Knapsack Problems, comparing the use of Novelty Search in the original feature-space to using Novelty Search in a low-dimensional projection, and repeat over a given set of dimensions. We find that the methods are complementary: if treated as an ensemble, they collectively provide increased coverage of the space. Specifically, searching for novelty in a low-dimension space contributes 56\% of the filled regions of the space, while searching directly in the feature-space covers the remaining 44\%.},
+booktitle = {Proceedings of the Genetic and Evolutionary Computation Conference},
+pages = {312–320},
+numpages = {9},
+keywords = {instance-space analysis, novelty search, knapsack problem, evolutionary computation, instance generation},
+location = {Lisbon, Portugal},
+series = {GECCO '23},
+   selected = {true},
+
 }
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@article{Marrero2023,
+title = {DIGNEA: A tool to generate diverse and discriminatory instance suites for optimisation domains},
+journal = {SoftwareX},
+volume = {22},
+pages = {101355},
+year = {2023},
+issn = {2352-7110},
+author = {Alejandro Marrero and Eduardo Segredo and Coromoto León and Emma Hart},
+keywords = {Instance generation, Novelty search, Evolutionary algorithm, Optimisation, Knapsack problem},
+abstract = {To advance research in the development of optimisation algorithms, it is crucial to have access to large test-beds of diverse and discriminatory instances from a domain that can highlight strengths and weaknesses of different algorithms. The DIGNEA tool enables diverse instance suites to be generated for any domain, that are also discriminatory with respect to a set of solvers of the user choice. Written in C++, and delivered as a repository and as a Docker image, its modular and template-based design enables it to be easily adapted to multiple domains and types of solvers with minimal effort. This paper exemplifies how to generate instances for the Knapsack Problem domain.},
+   selected = {true},
+
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+@article{Marrero2020,
+abstract = {Encouraging healthy and balanced diet plans is one of the most important action points for governments around the world. Generating healthy, balanced and inexpensive menu plans that fulfil all the recommendations given by nutritionists is a complex and time-consuming task; because of this, computer science has an important role in this area. This paper deals with a novel constrained multi-objective formulation of the menu planning problem specially designed for school canteens that considers the minimisation of the cost and the minimisation of the level of repetition of the specific courses and food groups contained in the plans. Particularly, this paper proposes a multi-objective memetic approach based on the well-known multi-objective evolutionary algorithm based on decomposition (MOEA/D). A crossover operator specifically designed for this problem is included in the approach. Moreover, an ad-hoc iterated local search (ILS) is considered for the improvement phase. As a result, our proposal is referred to as ILS-MOEA/D. A wide experimental comparison against a recently proposed single-objective memetic scheme, which includes explicit mechanisms to promote diversity in the decision variable space, is provided. The experimental assessment shows that, even though the single-objective approach yields menu plans with lower costs, our multi-objective proposal offers menu plans with a significantly lower level of repetition of courses and food groups, with only a minor increase in cost. Furthermore, our studies demonstrate that the application of multi-objective optimisers can be used to implicitly promote diversity not only in the objective function space, but also in the decision variable space. Consequently, in contrast to the single-objective optimiser, there was no need to include an explicit strategy to manage the diversity in the decision space in the case of the multi-objective approach.},
+author = {Marrero, Alejandro and Segredo, Eduardo and Le{\'{o}}n, Coromoto and Segura, Carlos},
+issn = {2227-7390},
+journal = {Mathematics},
+number = {11},
+title = {{A Memetic Decomposition-Based Multi-Objective Evolutionary Algorithm Applied to a Constrained Menu Planning Problem}},
+volume = {8},
+year = {2020},
+numpages = {18}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
-  selected={true},
-  inspirehep_id = {3255}
+@inproceedings{Marrero2021,
+author = {Marrero, Alejandro and Segredo, Eduardo and Leon, Coromoto},
+title = {A Parallel Genetic Algorithm to Speed up the Resolution of the Algorithm Selection Problem},
+year = {2021},
+isbn = {9781450383516},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+
+abstract = {Deciding which optimisation technique to use for solving a particular optimisation
+problem is an arduous task that has been faced in the field of optimisation for decades.
+The above problem is known as the Algorithm Selection Problem (ASP). The optimisation
+techniques considered in previous works have been, mainly, approaches that can be
+executed rapidly. However, considering more sophisticated optimisation approaches
+for solving the ASP, such as Evolutionary Algorithms, drastically increases the computational
+cost. We are interested in solving the ASP by considering different configurations
+of a Genetic Algorithm (GA) applied to the well-known 0/1 Knapsack Problem (KNP).
+This involves the execution of a significant number of configurations of the GA, in
+order to evaluate their performance, when applied to a wide range of instances with
+different features of the KNP, which is a computationally expensive task. Therefore,
+the main aim of the current work is to provide, as first step for solving the ASP,
+an efficient parallel GA, which is able to attain competitive results, in terms of
+the optimal objective value, in a short amount of time. Computational results show
+that our approach is able to scale efficiently and considerably reduces the average
+elapsed time for solving KNP instances.},
+booktitle = {Proceedings of the Genetic and Evolutionary Computation Conference Companion},
+pages = {1978–1981},
+numpages = {4},
+keywords = {algorithm selection problem, parallelism, knapsack problem, genetic algorithm},
+location = {Lille, France},
+series = {GECCO '21}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@InProceedings{Marrero22,
+author="Marrero, Alejandro
+and Segredo, Eduardo
+and Le{\'o}n, Coromoto
+and Hart, Emma",
+title="A Novelty-Search Approach to Filling an Instance-Space with Diverse and Discriminatory Instances for the Knapsack Problem",
+booktitle="Parallel Problem Solving from Nature -- PPSN XVII",
+year="2022",
+publisher="Springer International Publishing",
+address="Cham",
+pages="223--236",
+isbn="978-3-031-14714-2",
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
+
+
+@inproceedings{10.1145/3638529.3654028,
+author = {Marrero, Alejandro and Segredo, Eduardo and Le\'{o}n, Coromoto and Hart, Emma},
+title = {Learning Descriptors for Novelty-Search Based Instance Generation via Meta-evolution},
+year = {2024},
+isbn = {9798400704949},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3638529.3654028},
+doi = {10.1145/3638529.3654028},
+abstract = {The ability to generate example instances from a domain is important in order to benchmark algorithms and to generate data that covers an instance-space in order to train machine-learning models for algorithm selection. Quality-Diversity (QD) algorithms have recently been shown to be effective in generating diverse and discriminatory instances with respect to a portfolio of solvers in various combinatorial optimisation domains. However these methods all rely on defining a descriptor which defines the space in which the algorithm searches for diversity: this is usually done manually defining a vector of features relevant to the domain. As this is a limiting factor in the use of QD methods, we propose a meta-QD algorithm which uses an evolutionary algorithm to search for a nonlinear 2D projection of an original feature-space such that applying novelty-search method in this space to generate instances improves the coverage of the instance-space. We demonstrate the effectiveness of the approach by generating instances from the Knapsack domain, showing the meta-QD approach both generates instances in regions of an instance-space not covered by other methods, and also produces significantly more instances.},
+booktitle = {Proceedings of the Genetic and Evolutionary Computation Conference},
+pages = {206–213},
+numpages = {8},
+keywords = {instance generation, instance-space analysis, knapsack problem, novelty search, evolutionary computation, neural-network},
+location = {Melbourne, VIC, Australia},
+series = {GECCO '24},
+   selected = {true},
+
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+@article{10.1162/evco_a_00350,
+    author = {Marrero, Alejandro and Segredo, Eduardo and León, Coromoto and Hart, Emma},
+    title = "{Synthesising Diverse and Discriminatory Sets of Instances Using Novelty Search in Combinatorial Domains}",
+    journal = {Evolutionary Computation},
+    pages = {1-36},
+    year = {2024},
+    month = {08},
+    abstract = "{Gathering sufficient instance data to either train algorithm-selection models or understand algorithm footprints within an instance space can be challenging. We propose an approach to generating synthetic instances that are tailored to perform well with respect to a target algorithm belonging to a predefined portfolio but are also diverse with respect to their features. Our approach uses a novelty search algorithm with a linearly weighted fitness function that balances novelty and performance to generate a large set of diverse and discriminatory instances in a single run of the algorithm. We consider two definitions of novelty: (1) with respect to discriminatory performance within a portfolio of solvers; (2) with respect to the features of the evolved instances. We evaluate the proposed method with respect to its ability to generate diverse and discriminatory instances in two domains (knapsack and bin-packing), comparing to another well-known quality diversity method, Multi-dimensional Archive of Phenotypic Elites (MAP-Elites) and an evolutionary algorithm that only evolves for discriminatory behaviour. The results demonstrate that the novelty search method outperforms its competitors in terms of coverage of the space and its ability to generate instances that are diverse regarding the relative size of the “performance gap” between the target solver and the remaining solvers in the portfolio. Moreover, for the Knapsack domain, we also show that we are able to generate novel instances in regions of an instance space not covered by existing benchmarks using a portfolio of state-of-the-art solvers. Finally, we demonstrate that the method is robust to different portfolios of solvers (stochastic approaches, deterministic heuristics, and state-of-the-art methods), thereby providing further evidence of its generality.}",
+    issn = {1063-6560},
+    doi = {10.1162/evco_a_00350},
+    url = {https://doi.org/10.1162/evco\_a\_00350},
+    eprint = {https://direct.mit.edu/evco/article-pdf/doi/10.1162/evco\_a\_00350/2464257/evco\_a\_00350.pdf},
+       selected = {true},
 }
 
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
-}
+@PhdThesis {marrerothesis,
+   abstract = {The present thesis has been partially supported by Agencia Canaria de Investigación Innovación y Sociedad de la Información de la Consejería de Economía, Conocimiento y Empleo y por el Fondo Social Europeo (FSE) Programa Operativo Integrado de Canarias 2014-2020, Eje 3 Tema Prioritario 74 (85%) - under grant TESIS2020010005.},
+   author = {Marrero, Alejandro},
+   title = {Evolutionary Computation Methods for Instance Generation in Optimisation Domains},
+   url = {http://riull.ull.es/xmlui/handle/915/37726},
+   year = {2024},
+   month = {02},
+   type = {Doctoral Dissertation},
+   school = {Universidad de La Laguna},
+   language = {English},
+   address = {San Cristóbal de La Laguna, Spain},
+   selected = {true},
+   }
 
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
-}
+
