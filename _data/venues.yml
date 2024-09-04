@@ -1,9 +1,19 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"ECJ":
+  url: https://direct.mit.edu/evco
+  color: "#482079"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"GECCO":
+  url: https://dl.acm.org/conference/gecco
+  color: "#ea9649"
 
-"Vision":
-  color: "#009f36"
+"ULL":
+  url: https://portalciencia.ull.es/
+  color: "##5c068c"
+
+"SoftX":
+  url: https://www.sciencedirect.com/journal/softwarex
+  color: "#51bfae"
+
+"Math":
+  url: https://www.mdpi.com/journal/mathematics
+  color: "#3a2917"

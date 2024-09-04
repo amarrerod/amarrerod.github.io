@@ -1,12 +1,26 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+title: Teaching
+description: Courses that I have taught
 nav: true
-nav_order: 6
+nav_order: 2
+horizontal: false
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+<!-- _pages/teaching.md -->
+<div class="courses" markdown="1">
+{% assign courses = site.courses %}
+  <ul>
+  {% for course in courses %}
+    <li>
+    <h2> {{ course.description }} ({{ course.title }}) </h2> 
+     <b>{{ course.degree}} -  {{ course.dates }} @ {{ course.college }} </b>
+     <div>
+        <p> {{ course.content }} </p>
+     </div>
+    </li>
+  {% endfor %}
+</ul>
+</div>
 
-Organize your courses by years, topics, or universities, however you like!
